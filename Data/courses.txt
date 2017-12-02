@@ -1,0 +1,24 @@
+Programming Fundamentals
+Programming 1
+Programming 2
+Computer Systems
+Databases 1
+Communications and Networking
+Calculus
+Web Programming 1
+Operating Systems 1
+Software Engineering 1
+Comparative Programming Languages
+Data Structures
+Discrete Mathematics
+Analysis of Algorithms
+Web Programming 2
+Software Engineering 2
+Databases 2
+Operating Systems 2
+Information Retrieval
+Advanced Networking and Data Security
+Mobile Applications
+Computer Graphics
+Data Mining and Machine Learning
+Artificial Intelligence
