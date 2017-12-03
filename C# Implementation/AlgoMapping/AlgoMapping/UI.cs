@@ -28,8 +28,10 @@ namespace AlgoMapping
         public UI()
         {
             InitializeComponent();
-
-            courses = File.ReadAllLines(@"../../Data/courses.txt");
+ 	    
+	    // Reading data from files
+            
+	    courses = File.ReadAllLines(@"../../Data/courses.txt");
             instructors = File.ReadAllLines(@"../../Data/instructors.txt");
             topics = File.ReadAllLines(@"../../Data/topics.txt");
             coursetopicpercent = File.ReadAllLines(@"../../Data/coursetopicpercent.txt");
