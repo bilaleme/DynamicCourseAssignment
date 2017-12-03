@@ -1,0 +1,61 @@
+
+   
+   <head>
+      <title>AngularJS First Application</title>
+	  
+	  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	  
+	  <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	  
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	  
+	  <script>
+	  
+		
+	  
+		var mainApp = angular.module("mainApp", []);
+		
+		mainApp.controller('professorController',function($scope,$http){
+		
+			$http.get('/data').success( function(response) {
+										$scope.professors = response; 
+									});	
+		
+		});
+	  
+	  
+	  </script>
+	  
+   </head>
+   
+   <body>
+      <h1>Dynamic Course Assignment</h1>
+      
+      <div ng-app = "mainApp" ng-controller="professorController">
+         
+		 <ol>
+		 
+		 
+			<div ng-repeat="professor in professors">
+				<div  class="card" style="width: 60rem;">
+				  <div class="card-body">
+					<h3 class="card-title">{{'Professor : ' + professor.professorName}}</h3>
+					<h5 class="card-subtitle mb-2 text-muted">{{'First Course : ' + professor.course1}}<span  style="margin-left:5px" class="badge badge-primary">{{'Relevance : ' + professor.relevance1}}</span></h5>
+					<h5 class="card-subtitle mb-2 text-muted">{{'Second Course : ' + professor.course2}}<span style="margin-left:5px"  class="badge badge-secondary">{{'Relevance : ' + professor.relevance2}}</span></h5>
+					<br>
+				  </div>
+				</div>
+				<br><br>
+			</div>
+		 </ol>
+		 
+		 
+      </div>
+      
+      
+      
+	  
+	  
+   </body>

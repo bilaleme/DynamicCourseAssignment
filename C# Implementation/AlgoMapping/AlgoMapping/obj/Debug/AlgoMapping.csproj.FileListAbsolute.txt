@@ -1,0 +1,18 @@
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\bin\Debug\AlgoMapping.exe.config
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\bin\Debug\AlgoMapping.exe
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\bin\Debug\AlgoMapping.pdb
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.csprojResolveAssemblyReference.cache
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.UI.resources
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.Properties.Resources.resources
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.csproj.GenerateResource.Cache
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.exe
+c:\users\bavwb\documents\visual studio 2013\Projects\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.pdb
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\bin\Debug\AlgoMapping.exe.config
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.exe
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.pdb
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\bin\Debug\AlgoMapping.exe
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\bin\Debug\AlgoMapping.pdb
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.UI.resources
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.Properties.Resources.resources
+C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.csproj.GenerateResource.Cache

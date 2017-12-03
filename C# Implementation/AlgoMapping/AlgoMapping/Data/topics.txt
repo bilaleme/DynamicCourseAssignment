@@ -1,0 +1,87 @@
+discipline
+Science
+Applied science
+Coding theory
+Game theory
+cybernetics
+Graph theory
+Mathematical logic
+Boolean logic
+modeling
+Number theory
+integers
+cryptography
+artificial intelligence
+Algorithms
+Data structures
+Artificial intelligence
+Automated reasoning
+Prolog
+automated theorem provers
+mathematical theorems
+Computer vision
+Soft computing
+Machine learning
+Evolutionary computing
+Natural language processing
+Robotics
+Networking
+error correction
+Computer security
+Cryptography
+break codes
+cryptographic protocols
+Computer architecture
+CPUs
+Memory
+Operating systems
+Computer graphics
+Image processing
+Information visualization
+Parallel computing
+Concurrency (computer science)
+Distributed computing
+Relational databases
+set theoretic
+Structured Storage
+NoSQL
+Data mining
+information retrieval
+Compiler theory
+compiler
+Automata theory
+Programming language pragmatics
+programming paradigms
+object-oriented programming
+Programming language theory
+Formal semantics
+Type theory
+Computational science
+mathematical models
+quantitative analysis
+scientific
+Numerical analysis
+root-finding
+integration
+solution of ordinary differential equations
+special functions
+Symbolic computation
+Computer algebra
+Computational physics
+Computational chemistry
+Bioinformatics
+Computational biology
+biological data
+Protein folding
+Phylogeny
+Computational neuroscience
+neurophysiology
+Formal methods
+Software engineering
+Algorithm design
+Computer programming
+Human–computer interaction
+Reverse engineering
+Automata theory
+Computability theory
+Alan Turing
