@@ -73,12 +73,16 @@ namespace AlgoMapping
         {
             foreach (string topicprof in topicprofskill)
             {
+		//tokenizing the Expertise data from the file
+
                 string[] tokens = topicprof.Split('\t');
                 topicinstructors[ Int32.Parse(tokens[0]) - 1,Int32.Parse(tokens[1]) - 1] = Int32.Parse(tokens[2]);
             }
 
             foreach (string ctopperc in coursetopicpercent)
             {
+		//tokenizing the Percentage data from the file
+
                 string[] tokens = ctopperc.Split('\t');
                 coursetopics[Int32.Parse(tokens[0]) - 1, Int32.Parse(tokens[1]) - 1] = Int32.Parse(tokens[2]);
             }
@@ -91,6 +95,8 @@ namespace AlgoMapping
 
                     for (int z = 0; z < topics.Length; z++)
                     {
+			//Checking the relevance
+
                         relevance = relevance + (coursetopics[x,z] * topicinstructors[z,y]);
                     }
 
