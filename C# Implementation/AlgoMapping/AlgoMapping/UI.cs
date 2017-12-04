@@ -66,6 +66,9 @@ namespace AlgoMapping
             return maxIndex;
         }
 
+		
+		
+		// return boolean to check whether a couse is taken by a professor or not
         private bool checkTaken(int courseIndex)
         {
             return taken[courseIndex] == true;
