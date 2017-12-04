@@ -42,14 +42,16 @@ namespace AlgoMapping
             professorcourse = new int[instructors.Length, courses.Length];
             taken = new bool[courses.Length];
         }
-
+		
+		//return the maximum column for a professor
         private int maxColumn(int[,] profCourseArray, int colIndex,int rowLength)
         {
-
+			
             int max = 0;
             int maxIndex = -1;
             
-
+			
+			//loop to go thru all rows and select the max from it
             for (int x = 0; x < rowLength; x++)
             {
                 if (profCourseArray[colIndex - 1, x] > max && !checkTaken(x))
