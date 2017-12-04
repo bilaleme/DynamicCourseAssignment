@@ -13,9 +13,9 @@ namespace AlgoMapping
 {
     public partial class UI : Form
     {
-        string[] courses;
-        string[] instructors;
-        string[] topics;
+        string[] courses; // string of courses 
+        string[] instructors; //string of instructors
+        string[] topics; //string of topics
         string[] coursetopicpercent;
         string[] topicprofskill;
 
@@ -68,7 +68,7 @@ namespace AlgoMapping
 
 		
 		
-		// return boolean to check whether a couse is taken by a professor or not
+		// return boolean to check whether a course is taken by a professor or not
         private bool checkTaken(int courseIndex)
         {
             return taken[courseIndex] == true;
@@ -125,17 +125,7 @@ namespace AlgoMapping
                 }
             }
 
-            //for (int x = 0; x < taken.Length; x++)
-            //{
-            //    Console.WriteLine(taken[x]);
-            //    //for(int y = 0; y < courses.Length; y++)
-            //    //{
-            //    //    Console.Write(professorcourse[x, y].ToString());
-            //    //    Console.Write(" ");
-            //    //}
-
-            //    //Console.WriteLine();
-            //}
+            
 
         }
     }
