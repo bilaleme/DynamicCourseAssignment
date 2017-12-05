@@ -125,6 +125,11 @@ namespace AlgoMapping
                     {
                         Console.WriteLine(courses[proOut]);
                     }
+
+                    if (proOut == -1)
+                    {
+                        Console.WriteLine("not found");
+                    }
                 }
             }
 
