@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,8 +13,8 @@ namespace AlgoMapping
 {
     public partial class UI : Form
     {
-        string[] courses; // string of courses 
-        string[] instructors; //string of instructors
+        string[] courses; // string of courses that contains course
+        string[] instructors; //string of instructors with instructor id
         string[] topics; //string of topics
         string[] coursetopicpercent;
         string[] topicprofskill;
