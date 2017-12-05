@@ -89,7 +89,7 @@ namespace AlgoMapping
 		//tokenizing the Percentage data from the file
 
                 string[] tokens = ctopperc.Split('\t');
-                coursetopics[Int32.Parse(tokens[0]) - 1, Int32.Parse(tokens[1]) - 1] = Int32.Parse(tokens[2]);
+                coursetopics[Int32.Parse(tokens[0]) - 1, Int32.Parse(tokens[1]) - 1] = Int32.Parse(tokens[2]);//putting it into an array
             }
 
             for (int x = 0; x < courses.Length; x++)
