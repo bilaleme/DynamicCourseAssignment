@@ -16,3 +16,6 @@ C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\Alg
 C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.UI.resources
 C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.Properties.Resources.resources
 C:\Users\Administrator\Desktop\AlgoMapping\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.csproj.GenerateResource.Cache
+C:\Users\aleem\Documents\GitHub\DynamicCourseAssignment\C# Implementation\AlgoMapping\AlgoMapping\bin\Debug\AlgoMapping.exe.config
+C:\Users\aleem\Documents\GitHub\DynamicCourseAssignment\C# Implementation\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.exe
+C:\Users\aleem\Documents\GitHub\DynamicCourseAssignment\C# Implementation\AlgoMapping\AlgoMapping\obj\Debug\AlgoMapping.pdb

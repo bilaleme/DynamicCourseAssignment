@@ -19,7 +19,7 @@ namespace AlgoMapping
         string[] coursetopicpercent;
         string[] topicprofskill;
 
-        int[,] coursetopics;
+        int[,] coursetopics; //creates empty 2d array
         int[,] topicinstructors;
         int[,] professorcourse;
         bool[] taken;
