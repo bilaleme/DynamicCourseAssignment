@@ -71,6 +71,7 @@ namespace AlgoMapping
 		// return boolean to check whether a course is taken by a professor or not
         private bool checkTaken(int courseIndex)
         {
+            // if course is already taken then we move on to the next course 
             return taken[courseIndex] == true;
         }
 
