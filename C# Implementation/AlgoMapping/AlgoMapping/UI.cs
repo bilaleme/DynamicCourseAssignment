@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,9 +13,9 @@ namespace AlgoMapping
 {
     public partial class UI : Form
     {
-        string[] courses; // string of courses that contains course
-        string[] instructors; //string of instructors with instructor id
-        string[] topics; //string of topics
+        string[] courses; //String array of courses - initialization
+        string[] instructors;
+        string[] topics;
         string[] coursetopicpercent;
         string[] topicprofskill;
 
@@ -42,16 +42,14 @@ namespace AlgoMapping
             professorcourse = new int[instructors.Length, courses.Length];
             taken = new bool[courses.Length];
         }
-		
-		//return the maximum column for a professor
+
         private int maxColumn(int[,] profCourseArray, int colIndex,int rowLength)
         {
-			
+
             int max = 0;
             int maxIndex = -1;
             
-			
-			//loop to go thru all rows and select the max from it
+
             for (int x = 0; x < rowLength; x++)
             {
                 if (profCourseArray[colIndex - 1, x] > max && !checkTaken(x))
@@ -66,9 +64,6 @@ namespace AlgoMapping
             return maxIndex;
         }
 
-		
-		
-		// return boolean to check whether a course is taken by a professor or not
         private bool checkTaken(int courseIndex)
         {
             return taken[courseIndex] == true;
@@ -125,7 +120,17 @@ namespace AlgoMapping
                 }
             }
 
-            
+            //for (int x = 0; x < taken.Length; x++)
+            //{
+            //    Console.WriteLine(taken[x]);
+            //    //for(int y = 0; y < courses.Length; y++)
+            //    //{
+            //    //    Console.Write(professorcourse[x, y].ToString());
+            //    //    Console.Write(" ");
+            //    //}
+
+            //    //Console.WriteLine();
+            //}
 
         }
     }
