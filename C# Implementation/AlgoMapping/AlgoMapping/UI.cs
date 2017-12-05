@@ -11,6 +11,7 @@ using System.IO;
 
 namespace AlgoMapping
 {
+//AlgoMapping
     public partial class UI : Form
     {
         string[] courses; // string of courses that contains course
