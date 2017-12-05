@@ -113,8 +113,10 @@ namespace AlgoMapping
 
             for(int y = 1; y <= 2; y++)
             {
+                // each professor has 2 course slots that needs to be filled. 
                 for (int x = 1; x <= instructors.Length; x++)
                 {
+
                     int proOut = maxColumn(professorcourse, x, courses.Length);
 
                     Console.WriteLine(instructors[x - 1].ToString());
